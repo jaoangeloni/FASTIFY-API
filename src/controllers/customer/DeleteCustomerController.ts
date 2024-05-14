@@ -6,9 +6,9 @@ class DeleteCustomerController {
         const { id } = request.params as { id: string };
 
         const customerService = new DeleteCustomerService();
-        const customers = await customerService.execute({ id });
+        const customer = await customerService.execute({ id });
 
-        reply.send(customers);
+        reply.send(customer);
     }
 }
 
