@@ -6,7 +6,6 @@ interface DeleteCustomerProps {
 
 class DeleteCustomerService {
     async execute({ id }: DeleteCustomerProps) {
-        const customers = await prismaClient.customer.findMany();
         if (!id) {
             throw new Error("Solicitação inválida");
         }
