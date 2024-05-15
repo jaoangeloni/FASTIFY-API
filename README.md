@@ -4,6 +4,7 @@ Projeto simples feito para fins acadêmicos. Lista de todas as tecnologias utili
   - Fastify
   - React
   - TailwindCSS
+  - Axios
   - Prisma
   - MongoDB
 
